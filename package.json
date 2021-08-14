@@ -1,0 +1,24 @@
+{
+  "name": "@mfe/libapp",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --config webpack.prod.js",
+    "cleanInit": "rm -rf node_modules && npm i"
+  },
+  "dependencies": {
+    "@rematch/core": "^2.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-server": "^0.1.2"
+  }
+}

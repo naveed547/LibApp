@@ -1,5 +1,4 @@
 # How to run LibApp
--------
 
 This example demos a basic host application loading from different remote component.
 
@@ -7,7 +6,7 @@ This example demos a basic host application loading from different remote compon
 
 ## Running Demo
 1. Under LibApp Remote
-  * npm install
-  * npm start
+    * npm install
+    * npm start
 
-* localhost:8085 (STANDALONE REMOTE LibApp holds all lib, store and context)
+- localhost:8085 (STANDALONE REMOTE LibApp holds all lib, store and context)
